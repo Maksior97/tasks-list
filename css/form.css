@@ -1,0 +1,27 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+}
+
+.form__newTask {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form__button {
+        padding: 10px;
+        background-color: hsl(185, 100%, 24%);
+        color: white;
+        border: none;
+        display: flex;
+        align-self: center;
+    }
+    
+    .form__button.button:hover {
+        background-color: hsl(185, 100%, 30%);
+    }
+    
+    .form__button:active {
+        background-color: hsl(185, 100%, 37%);
+    }
