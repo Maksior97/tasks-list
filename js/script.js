@@ -26,7 +26,7 @@
             htmlString += `
                 <li class="tasks__element js-tasks">
                 <button class="tasks__button tasks__button--toggleDone js-toggleDone"> ${task.done ? "✔" : ""} </button>
-                <span class="tasks__content${task.done ? "tasks__content--done" : ""}">${task.content}</span>
+                <span class="tasks__content ${task.done ? "tasks__content--done" : ""}"> ${task.content} </span>
                 <button class="tasks__button tasks__button--toggleRemove js-toggleRemove">♻</button>
                 </li>
              `;
@@ -40,7 +40,6 @@
                 toggleTaskRemove(index);
             });
         });
-    };
 
     const toggleDoneButtons = document.querySelectorAll(".js-toggleDone");
 
@@ -50,6 +49,7 @@
         });
     });
 
+};
     const onFormSubmit = (event) => {
         event.preventDefault();
 
