@@ -22,12 +22,32 @@
 }
 
 .tasks__button--toggleDone {
-    background: green;
+    background: hsl(120, 100%, 25%);
+    border: none;
+}
+
+.tasks__button--toggleDone:hover {
+    background: hsl(120, 100%, 30%);
+    border: none;
+}
+
+.tasks__button--toggleDone:active {
+    background: hsl(120, 100%, 35%);
     border: none;
 }
 
 .tasks__button--toggleRemove {
-    background: red;
+    background: hsl(0, 100%, 50%);
+    border: none;
+}
+
+.tasks__button--toggleRemove:hover {
+    background: hsl(0, 100%, 55%);
+    border: none;
+}
+
+.tasks__button--toggleRemove:active {
+    background: hsl(0, 100%, 60%);
     border: none;
 }
 
