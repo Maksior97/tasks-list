@@ -22,10 +22,12 @@
         border: none;
         display: flex;
         align-self: center;
+        transition: 1s;
     }
     
-    .form__button.button:hover {
+    .form__button:hover {
         background-color: hsl(185, 100%, 30%);
+        transform: scale(1.25);
     }
     
     .form__button:active {
