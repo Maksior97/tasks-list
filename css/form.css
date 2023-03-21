@@ -4,6 +4,12 @@
     grid-gap: 20px;
 }
 
+@media (max-width: 767px) {
+    .form {
+        grid-template-columns: 1fr;
+    }
+}
+
 .form__newTask {
     padding: 10px;
     border: 1px solid #ddd;
