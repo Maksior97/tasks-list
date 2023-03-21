@@ -10,4 +10,5 @@
 
 body {
     background: #eee;
+    word-break: break-word;
 }
