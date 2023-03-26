@@ -14,4 +14,5 @@ What was used in the project:
 - camelCase
 - BEM convention,
 - grid,
-- const functions.
+- const functions,
+- immutability.
