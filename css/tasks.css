@@ -37,21 +37,25 @@
     border: none;
 }
 
-.tasks__button--toggleRemove {
+.tasks__button--remove {
     background: hsl(0, 100%, 50%);
     border: none;
 }
 
-.tasks__button--toggleRemove:hover {
+.tasks__button--remove:hover {
     background: hsl(0, 100%, 55%);
     border: none;
 }
 
-.tasks__button--toggleRemove:active {
+.tasks__button--remove:active {
     background: hsl(0, 100%, 60%);
     border: none;
 }
 
 .tasks__content--done {
     text-decoration: line-through;
+}
+
+.tasks__element--hidden {
+    display: none;
 }
